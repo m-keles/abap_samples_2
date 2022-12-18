@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMK_RAISE_EVENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Zmk Raise Event</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SPEED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>get speed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOP_SPEED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>top speed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPEED</CMPNAME>
+     <SCONAME>I_SPEED</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Natürliche Zahl</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOP_SPEED</CMPNAME>
+     <SCONAME>E_SPEED</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Natürliche Zahl</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
